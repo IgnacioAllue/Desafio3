@@ -1,0 +1,38 @@
+[
+    {
+        "pid": 1,
+        "limit": 30,
+        "title": "producto1",
+        "price": 2500
+    },
+    {
+        "pid": 2,
+        "limit": 20,
+        "title": "producto2",
+        "price": 3500
+    },
+    {
+        "pid": 3,
+        "limit": 10,
+        "title": "producto3",
+        "price": 4500
+    },
+    {
+        "pid": 4,
+        "limit": 20,
+        "title": "producto3",
+        "price": 4500
+    },
+    {
+        "pid": 5,
+        "limit": 30,
+        "title": "producto3",
+        "price": 4500
+    },
+    {
+        "pid": 6,
+        "limit": 30,
+        "title": "producto3",
+        "price": 4500
+    }
+]
