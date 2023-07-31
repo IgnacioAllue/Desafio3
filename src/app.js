@@ -10,7 +10,7 @@ const manager = new ProductManager()
 app.get('/products', async (req, res) => {
     let {limit} = req.query
     let productos = await manager.getProducts()
-    let limite = limit ? productos.filter(product => product.limit == limit) : productos
+    let limite = limit ? productos.slice(0,limit) : productos
     res.send(limite)
 })
 
